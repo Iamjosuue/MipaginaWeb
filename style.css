@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.header {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(images/bg.jpg);
+        background-position: center bottom no-repeat;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 70vh;
+        display: flex;
+        align-items: center;
+}
+.Menu {
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.pagina {
+   color: #ffffff;  
+   font-size:  25px;
+   font-weight: 800;
+}
+
+.Menu .barradenav ul li {
+    position: relative;
+    float: left;
+
+}
+
+.Menu .barradenav ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #fffdfc;
+    display: block;
+    font-weight: 600;
+     }
+
+.Menu .barradenav ul li a:hover {
+
+
+    color: #cf957d;
+
+}
+
+
+#Menu {
+display: none;
+}
+
+.Menu-icono {
+    width: 25px;
+}
+
+.Menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content h1 {
+    font-size: 75px;
+    line-height: 80px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 35 px;
+}
+
+.header-content p {
+    font-size: 16px;
+    color: #c5c5c5;
+    padding: 0 250px;
+    margin-bottom: 25px;
+
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+background-color: #ce937b;
+color: #F9FAFC;
+text-transform: uppercase;
+
+ }
+
+ .btn-1:hover {
+    background-color: #ce937b;
+ }
+
+ .hobbie {
+    padding: 100px 0;
+    background-color: #e1e2e6;
+    position: relative;
+ }
+
+ .hobbie-content {
+    text-align: center;
+
+ }
+
+ .hobbie-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+
+ }
+
+ .txt-p {
+    font-size: 16px;
+    color: #414247;
+    padding: 0 250px;
+    margin-bottom: 35px;
+ }
+
+
+ .hobbie-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+ }
+
+ .hobbie-1 {
+    padding: 0 25px;
+ }
+.hobbie-1 img{
+    width: 200px;
+}
+
+.hobbie-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+
+.hobbie-1 h3 {
+    color: #323337;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.servicios {
+    background-image: linear-gradient(
+        rgba(0,0,0, 0.7),
+        rgba(0,0,0, 0.7)),
+        url( images/bg2.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 100px o;
+
+}
+
+.servicios-content {
+    text-align: center;
+
+}
+
+.servicios-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    
+}
+
+.servicios-content p {
+    font-size: 16px;
+    color: #C5C5C5;
+    margin-bottom: 50px;
+    padding: 0 100px;
+
+}
+
+.servicios-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
+
+.servicios-1 {
+    padding: 0 100px;
+}
+
+.servicios-1 img {
+    width: 90px;
+    margin-bottom: 15px;
+}
+
+.servicios-1 h3 {
+    color: #eaccb3;
+    font-size: 18px;
+
+}
+
+.general {
+    display: flex;
+}
+
+.general-1 {
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    background-color: #e1e2e6;
+
+}
+
+
+.general1-2 {
+background-image: url(images/hobbie-1.jpg);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 50%;
+
+}
+
+.general-3 {
+    background-image: url(images/hobbie-2.jpg);
+    background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 50%;
+}
+
+h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+
+
+p {
+    font-size: 16px;
+    color: #414247;
+    margin: 25px 0 45px 0;
+
+}
+
+.blog {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.blog-content {
+   display: flex;
+   justify-content: space-between;
+
+}
+
+.blog-1 {
+     padding: 15px 55px;
+
+}
+
+.blog-1 img {
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+
+}
+
+.blog-1 h3 {
+    font-size: 25px;
+    color: #323337;
+
+}
+
+.footer {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  font-size: 14px;
+  color: #555;
+}
+ /* pie de pagina */
+.footer p {
+  margin: 0 0 10px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #614626;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #614626;
+}
+
+
+link h3 {
+    font-size: 16px;
+    color: #C5C5C5;
+    display: block;
+    margin-bottom: 15px;
+}
+
+@media(max-width:991px) {
+    .Menu {
+        padding: 30px;
+    }
+
+    .Menu label {
+        display: initial;
+    }
+
+    .Menu .barradenav {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #323337;
+        display: none;
+    }
+
+    .Menu .barradenav ul li {
+        width: 100%;
+    }
+
+    #Menu:checked ~ .barradenav {
+        display: initial;
+    }
+
+    .header {
+        min-height: 0vh;
+        
+    }
+
+    .header-content {
+        padding: 100px 30px;
+
+    }
+
+    .header-content p {
+        padding: 0;
+
+    }
+
+
+    .hobbie {
+        padding: 30px;
+    }
+
+    .hobbie-content h2 {
+        padding: 0;
+
+    }
+
+    .txt-p {
+        padding: 0;
+    }
+
+    .hobbie-group {
+        flex-direction: column;
+        margin-bottom: 0;
+
+    }
+
+    .hobbie-img {
+        display: none;
+    }
+
+    .servicios {
+        padding: 30px;
+
+    }
+
+    .servicios-content p {
+        padding: 0;
+    }
+
+    .servicios-group {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .servicios-1 {
+        margin-bottom: 25px;
+
+    }
+
+    .general {
+        flex-direction: column;
+    }
+
+    .general-1 {
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .general1-2 .general-3 {
+        display: none;
+    }
+
+    .blog {
+        padding: 30px;
+
+    }
+
+    .blog-content {
+        flex-direction: column;
+    }
+
+    .blog-1 {
+        padding: 0;
+
+    }
+
+    .footer {
+        padding: 30%;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+}

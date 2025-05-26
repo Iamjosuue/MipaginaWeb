@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom right, #6b524b, #977460);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.registro-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  width: 320px;
+  text-align: center;
+}
+
+.form-header .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #8d705e;
+  margin-bottom: 10px;
+}
+
+.form-header h2 {
+  margin: 5px 0;
+  color: #333;
+}
+
+.form-header p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.terms {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.terms input {
+  margin-right: 8px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #815125;;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #815125;
+}
+
+.login-link {
+  margin-top: 15px;
+  font-size: 13px;
+  color: #666;
+}
